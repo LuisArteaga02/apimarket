@@ -87,8 +87,8 @@ export const getUsuario = async (req, res) => {
       res.json({ message: "Producto actualizado" });
     } catch (error) {
       return res.status(500).json({ message: 'Algo salió mal' });
-
-  
+	}
+  };
 
   export const deleteProductos = async (req, res) => {
     try {
